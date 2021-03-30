@@ -1,9 +1,19 @@
 # Your Personal Car Assistant!!!!
-print("Welcome! What would you like to Do? ")
+
+print("""
+Welcome! What would you like to Do? 
+Enter Help for Options""")
+
+print()         #this will simply add a line break after this
+
 command = ""
+
+# this will ensure that the car is stopped bydefault.
+
 started = False
+
 while True:
-    command = input("Enter your choice ").lower()
+    command = input("Enter your choice--> ").lower()
     if command == "help":
         print(''' 
 1- Enter start to start the Engine
